@@ -39,6 +39,12 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.jenkins-ci.tools/maven-hpi-plugin -->
+            <dependency>
+                <groupId>org.jenkins-ci.tools</groupId>
+                <artifactId>maven-hpi-plugin</artifactId>
+                <version>3.5</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -65,11 +71,6 @@
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-durable-task-step</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jenkins-ci.tools</groupId>
-            <artifactId>maven-hpi-plugin</artifactId>
-            <version>3.5</version>
         </dependency>
     </dependencies>
 
