@@ -48,7 +48,7 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
         if (useFrench) {
             listener.getLogger().println("Bonjour, " + name + "!");
         } else {
-            listener.getLogger().println("Hello, " + name + "!!!");
+            listener.getLogger().println("Hello, " + name + "!!!!");
         }
     }
 
