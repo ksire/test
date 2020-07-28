@@ -130,4 +130,11 @@
         </plugin>
       </plugins>
     </reporting>
+    <distributionManagement>
+      <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/octocat/miyabis-hello-world-plugin</url>
+      </repository>
+    </distributionManagement>
 </project>
