@@ -21,6 +21,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-picocontainer</artifactId>
+        <version>1.2.5</version>
+    </dependency>
     <build>
         <pluginManagement>
             <plugins>
